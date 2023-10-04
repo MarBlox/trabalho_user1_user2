@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+
+  ubuntu:
+    build: .
+    container_name: trabalho_user1_user2
+    tty: true
