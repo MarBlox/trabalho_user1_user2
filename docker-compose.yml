@@ -6,3 +6,6 @@ services:
     build: .
     container_name: trabalho_user1_user2
     tty: true
+    environment:
+      - VAR1=abc
+      - VAR2=def
